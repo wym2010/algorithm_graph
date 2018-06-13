@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a0fe49c-7482-4163-ad24-07717e015148" name="Default" comment="2018-6-13">
+    <list default="true" id="0a0fe49c-7482-4163-ad24-07717e015148" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +16,8 @@
       <file leaf-file-name="Graph.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Graph.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            <state relative-caret-position="24">
+              <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -118,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528867998309</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2018-6-13">
+      <created>1528868197835</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1528868197835</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -167,8 +174,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Graph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        <state relative-caret-position="24">
+          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="15" />
           <folding />
         </state>
       </provider>
