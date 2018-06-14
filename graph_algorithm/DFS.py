@@ -5,20 +5,18 @@ class DepthFirstSearch:
         self._marked = []
         self._count = 0
         self._path_to = []
-        for i in range(self._graph.v()):
+        for i in range(self._graph.v):
             self._marked.append(0)
             self._path_to.append(-1)
-
-    def depth_first_search(self):
-        return self.dfs(self._s)
+        self.dfs(self._s)
 
     def dfs(self, s):
         self._marked[s] = 1
         self._count = self._count+1
-        for adj in self._graph.adj(s):
-            if not self._marked[adj]:
-                self._path_to[adj] = s
-                self.dfs(adj)
+        for w in self._graph.adj(s):
+            if not self._marked[w]:
+                self._path_to[w] = s
+                self.dfs(w)
 
     def count(self):
         return self._count
@@ -30,6 +28,10 @@ class DepthFirstSearch:
         return self.marked(v)
 
     def path_to(self, v):
+        """
+        A path from s to v
+        :rtype: list
+        """
         ret = []
 
         if self.marked(v):

@@ -12,8 +12,7 @@ class BreadFirstSearch:
             self._marked.append(0)
             self._path_to.append(-1)
 
-    def bread_first_search(self):
-        return self.bfs(self._s)
+        self.bfs(s)
 
     def bfs(self, v):
         v_deque = deque([])
@@ -22,10 +21,10 @@ class BreadFirstSearch:
 
         while len(v_deque):
             v = v_deque.popleft()
-            for w in range(self._graph.abj(v)):
+            for w in self._graph.adj(v):
                 if not self.marked(w):
                     v_deque.append(w)
-                    self._marked[v] = 1
+                    self._marked[w] = 1
                     self._path_to[w] = v
 
     def marked(self, v):
@@ -35,6 +34,10 @@ class BreadFirstSearch:
         return self.marked(v)
 
     def path_to(self, v):
+        """
+        a path from s to v
+        :rtype: list
+        """
         ret = []
 
         if self.marked(v):
