@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a0fe49c-7482-4163-ad24-07717e015148" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/DFS.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Union_find.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/main.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/graph_algorithm/BFS.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/graph_algorithm/__init__.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Graph.py" afterPath="$PROJECT_DIR$/Graph.py" />
+      <change beforePath="$PROJECT_DIR$/DFS.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graph.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Union_find.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/main.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +20,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Graph.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Graph.py">
+        <entry file="file://$PROJECT_DIR$/graph_algorithm/Graph.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1560">
               <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
@@ -28,7 +30,7 @@
         </entry>
       </file>
       <file leaf-file-name="Union_find.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Union_find.py">
+        <entry file="file://$PROJECT_DIR$/graph_algorithm/Union_find.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="222">
               <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
@@ -38,7 +40,7 @@
         </entry>
       </file>
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
+        <entry file="file://$PROJECT_DIR$/graph_algorithm/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
               <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
@@ -49,11 +51,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DFS.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DFS.py">
+      <file leaf-file-name="DFS.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph_algorithm/DFS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            <state relative-caret-position="269">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BFS.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/graph_algorithm/BFS.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -83,13 +95,15 @@
         <option value="$PROJECT_DIR$/Union_find.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/DFS.py" />
+        <option value="$PROJECT_DIR$/graph_algorithm/DFS.py" />
+        <option value="$PROJECT_DIR$/graph_algorithm/BFS.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="53" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1370" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -118,6 +132,11 @@
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="graph_algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -126,8 +145,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wangym20804\PycharmProjects\algorithm\graph_algorithm" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -190,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528869234741</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="dfs of graph algorithm">
+      <created>1528890005955</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1528890005955</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -230,14 +261,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2018-6-13" />
-    <option name="LAST_COMMIT_MESSAGE" value="2018-6-13" />
+    <MESSAGE value="dfs of graph algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="dfs of graph algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Union_find.py">
+    <entry file="file://$PROJECT_DIR$/graph_algorithm/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph_algorithm/Union_find.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
@@ -245,7 +285,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/graph_algorithm/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
@@ -255,7 +295,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graph.py">
+    <entry file="file://$PROJECT_DIR$/graph_algorithm/Graph.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1560">
           <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
@@ -263,10 +303,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DFS.py">
+    <entry file="file://$PROJECT_DIR$/graph_algorithm/DFS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        <state relative-caret-position="269">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph_algorithm/BFS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="24" />
           <folding />
         </state>
       </provider>
